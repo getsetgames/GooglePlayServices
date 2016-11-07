@@ -1,0 +1,15 @@
+repositories $(ENGINEDIR)/Plugins/GSG/GooglePlayServices/ThirdParty/AndroidRepository
+repositories $(ANDROID_HOME)/extras
+repositories $(ENGINEDIR)/Source/ThirdParty/Android/extras
+
+# More a la carte selection of Google Play Services will eliminate things
+# like drive, maps, wearables, etc. which are not a direct dependency of UE4
+#
+com.google.android.gms,play-services-ads,9.2.0
+com.google.android.gms,play-services-ads-lite,9.2.0
+com.google.android.gms,play-services-auth,9.2.0
+com.google.android.gms,play-services-auth-base,9.2.0
+com.google.android.gms,play-services-base,9.2.0
+com.google.android.gms,play-services-basement,9.2.0
+com.google.android.gms,play-services-games,9.2.0
+com.google.android.gms,play-services-plus,9.2.0
