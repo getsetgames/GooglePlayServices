@@ -7,11 +7,6 @@
 
 #if PLATFORM_ANDROID
 
-#include "Android/AndroidJNI.h"
-#include "AndroidApplication.h"
-
-
 #elif PLATFORM_IOS
-
 
 #endif
