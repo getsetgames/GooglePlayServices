@@ -1,4 +1,3 @@
-repositories $(ENGINEDIR)/Plugins/GSG/GooglePlayServices/ThirdParty/AndroidRepository
 repositories $(ANDROID_HOME)/extras
 repositories $(ENGINEDIR)/Source/ThirdParty/Android/extras
 
