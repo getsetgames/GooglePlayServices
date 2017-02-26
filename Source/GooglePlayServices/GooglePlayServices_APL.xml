@@ -11,14 +11,6 @@
 
 	</androidManifestUpdates> 
 
-  	<AARImports>
-    <!--	<insertValue value="repositories $S(PluginDir)/ThirdParty/AndroidRepository"/>
-    	<insertNewline/>-->
-
-  
-    </AARImports>
-
-  
 	<!-- optional additions to proguard -->
 	<proguardAdditions>
 		<insert>
