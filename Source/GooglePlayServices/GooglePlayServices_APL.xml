@@ -11,12 +11,6 @@
 
 	</androidManifestUpdates> 
 
-  	<AARImports>
-		<insert>
-
-		</insert>	
-  	</AARImports>
-
 	<!-- optional additions to proguard -->
 	<proguardAdditions>
 		<insert>
@@ -24,6 +18,11 @@
 		</insert>
 	</proguardAdditions>
 	
+  	<AARImports>
+    	<insertValue value="toprepository $S(PluginDir)/../../Source/ThirdParty/AndroidRepository"/>
+    	<insertNewline/>
+  	</AARImports>
+
   	<prebuildCopies>
   		<copyFile src="$S(PluginDir)/aar-imports.txt" dst="$S(EngineDir)/Build/Android/Java/aar-imports.txt" />
   	</prebuildCopies>
