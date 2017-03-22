@@ -17,16 +17,15 @@
 
 		</insert>
 	</proguardAdditions>
-	
 
   	<prebuildCopies>
   		<copyFile src="$S(PluginDir)/aar-imports.txt" dst="$S(EngineDir)/Build/Android/Java/aar-imports.txt" />
+   		<copyFile src="$S(PluginDir)/aar-imports.txt" dst="$S(BuildDir)/aar-imports.txt" />
   	</prebuildCopies>
 
 
 	<!-- optional files or directories to copy to Intermediate/Android/APK -->
  	<resourceCopies>
-    <copyFile src="$S(PluginDir)/../../lib/Android/play-services-games-9.2.0.jar" dst="$S(BuildDir)/libs/play-services-games-9.2.0.jar" />
 	</resourceCopies>
 
   <!-- optional additions to the GameActivity imports in GameActivity.java -->
