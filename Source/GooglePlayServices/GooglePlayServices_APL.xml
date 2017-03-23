@@ -18,6 +18,11 @@
 		</insert>
 	</proguardAdditions>
 
+  <AARImports>
+    <insertValue value="repositories $S(PluginDir)/ThirdParty/AndroidRepository"/>
+    <insertNewline/>
+  </AARImports>
+
   	<prebuildCopies>
   		<copyFile src="$S(PluginDir)/aar-imports.txt" dst="$S(EngineDir)/Build/Android/Java/aar-imports.txt" />
    		<copyFile src="$S(PluginDir)/aar-imports.txt" dst="$S(BuildDir)/aar-imports.txt" />
