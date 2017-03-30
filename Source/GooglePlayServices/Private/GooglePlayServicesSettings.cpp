@@ -3,8 +3,8 @@
 //  Copyright (c) 2016 Get Set Games Inc. All rights reserved.
 //
 
-#include "GooglePlayServicesPrivatePCH.h"
 #include "GooglePlayServicesSettings.h"
+#include "GooglePlayServicesPrivatePCH.h"
 
 UGooglePlayServicesSettings::UGooglePlayServicesSettings(const FObjectInitializer& ObjectInitializer)
 : Super(ObjectInitializer)

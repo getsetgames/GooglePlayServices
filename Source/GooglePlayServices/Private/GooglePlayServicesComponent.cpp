@@ -3,6 +3,7 @@
 //  Copyright (c) 2016 Get Set Games Inc. All rights reserved.
 //
 
+#include "GooglePlayServicesComponent.h"
 #include "GooglePlayServicesPrivatePCH.h"
 
 void UGooglePlayServicesComponent::OnRegister()
