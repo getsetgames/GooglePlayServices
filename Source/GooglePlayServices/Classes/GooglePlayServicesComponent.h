@@ -5,6 +5,7 @@
 
 #pragma once
 
+#include "Components/ActorComponent.h"
 #include "GooglePlayServicesFunctions.h"
 #include "GooglePlayServicesComponent.generated.h"
 
