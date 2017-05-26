@@ -10,7 +10,7 @@ namespace UnrealBuildTool.Rules
 {
 	public class GooglePlayServices : ModuleRules
 	{
-		public GooglePlayServices(TargetInfo Target)
+		public GooglePlayServices(ReadOnlyTargetRules Target) : base(Target)
 		{
 			PublicIncludePaths.AddRange(
 				new string[] {
